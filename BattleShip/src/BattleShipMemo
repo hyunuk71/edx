@@ -1,0 +1,59 @@
+게임 시작
+    환영 메시지
+    빈 맵 출력
+        맵은 2d array
+
+    플레이어의 전함 배치
+        플레이어의 전함 함수 - 위치정보
+        배치시 기존 배치된 위치정보 참조해서 중복 불가능하게
+        배치시 좌표는 한자리수
+        총 5척
+
+    컴퓨터의 전함 배치
+        마찬가지
+        뜸을 들일까?
+
+    배틀
+    결과
+
+    Variables
+    map
+        - 2d array
+        - char
+        - 10*10
+        - initial value = ''
+
+    player's ship = [0, 1, 2, 3, 4]
+        - object
+        - [x,y]
+        - status - sunk
+
+    for (int i = 0; i < ship.length;i++){
+        Ship pShip = new pShip;
+    }
+
+    class Ship{
+        int x; // x-coordinate
+        int y; // y-coordinate
+        boolean isLive;
+    }
+
+    computer's ship
+        - object
+        - x cor, y cor
+        - status
+
+methods
+    main();
+
+    intro();
+        - welcome message
+        - initialise the ocean map
+
+deploy ships
+	input x, y and store them as an array[5]
+		setX
+		setY
+	if x, y is greater than 9, again the process
+	if [x,y] is already occupied, again the process.
+
