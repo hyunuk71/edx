@@ -32,6 +32,7 @@ public class Main {
                 if (myMap.isValid(x, y) == true) {
                     pShip[i].setX(x);
                     pShip[i].setY(y);
+                    myMap.registerShip(pShip[i]);
 
                 }
             }

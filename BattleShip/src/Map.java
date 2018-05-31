@@ -6,7 +6,8 @@ public class Map {
         fillMap(myMap);
     }
 
-    private void fillMap(char[][] map) { // initialise the ocean map with blank.
+    // initialise the ocean map with blank.
+    private void fillMap(char[][] map) {
         for (int row = 0; row < myMap.length; row++) {
             for (int column = 0; column < map[row].length; column++) {
                 map[row][column] = ' ';
@@ -14,7 +15,8 @@ public class Map {
         }
     }
 
-    public void printMap() { printMap(myMap);} // print map with the coordinates.
+    // print map with the coordinates guide.
+    public void printMap() { printMap(myMap);}
 
     private void printMap(char[][] map) {
         System.out.println("   0123456789   ");
@@ -37,11 +39,10 @@ public class Map {
         return isValid;
     }
 
-    public void setX(int x){
+    public void registerShip(Ship s){
+        int x = s.x;
 
     }
 
-    public void setY(int y){
 
-    }
 }
