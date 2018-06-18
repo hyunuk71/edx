@@ -1,4 +1,3 @@
-import java.awt.event.KeyListener;
 import java.util.*;
 public class MazeRunner {
     static Maze myMap = new Maze();

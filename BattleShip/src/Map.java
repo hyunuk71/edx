@@ -32,16 +32,17 @@ public class Map {
 
     public boolean isValid(int x, int y){
         boolean isValid = false;
-        if (myMap[x][y] != ' ')
+        if (myMap[x][y] == ' ')
             isValid = true;
         return isValid;
     }
 
-    public void setX(int x){
-
+    public void deployPShip(int x, int y) {
+        myMap[x][y] = '@';
     }
 
-    public void setY(int y){
-
+    public char getCoordinate(int x, int y){
+        return myMap[x][y];
     }
+
 }

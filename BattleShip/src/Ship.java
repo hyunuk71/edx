@@ -4,16 +4,13 @@ public class Ship {
     boolean isLive;
 
     public Ship() {
-        this.x = 0;
-        this.y = 0;
+        this.x = 99;
+        this.y = 99;
         this.isLive = true;
     }
 
-    public void setX(int x) {
+    public void setCoordinate(int x, int y) {
         this.x = x;
-    }
-
-    public void setY(int y) {
         this.y = y;
     }
 }
