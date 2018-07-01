@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BattleShip/BattleShip.iml" filepath="$PROJECT_DIR$/BattleShip/BattleShip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Crypto/Crypto.iml" filepath="$PROJECT_DIR$/Crypto/Crypto.iml" />
       <module fileurl="file://$PROJECT_DIR$/MazeRunner/MazeRunner.iml" filepath="$PROJECT_DIR$/MazeRunner/MazeRunner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OddsAndEvens/OddsAndEvens.iml" filepath="$PROJECT_DIR$/OddsAndEvens/OddsAndEvens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TripPlanner/TripPlanner.iml" filepath="$PROJECT_DIR$/TripPlanner/TripPlanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/edx.iml" filepath="$PROJECT_DIR$/edx.iml" />
     </modules>
   </component>
